@@ -1,61 +1,55 @@
 const products = [
   {
     _id: "1",
-    name: "Sony Camera",
+    name: "Logo Ring",
     image:
-      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtZXJhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-
-    price: 89.99,
+      "https://ae01.alicdn.com/kf/Hb7e126c360944e5cabdf5615e0fe4093e.jpg",
+    price: 3.99,
     rating: 4.5,
     numReviews: 12,
   },
   {
     _id: "2",
-    name: "Head Phones",
+    name: "Shadow Ring",
     image:
-      "https://images.unsplash.com/photo-1585298723682-7115561c51b7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8aGVhZHBob25lc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-
-    price: 599.99,
+      "https://ae01.alicdn.com/kf/Hc0084bd6e67b4ea489598aae69ab381fg/5-Estilo-caliente-juego-DOTA-2-Acero-inoxidable-anillo-de-acero-anillos-al-por-mayor-anillo.jpg",
+    price: 4.99,
     rating: 4.0,
     numReviews: 8,
   },
   {
     _id: "3",
-    name: "iPhone",
+    name: "Ring of Basilius",
     image:
-      "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fGlwaG9uZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-
-    price: 929.99,
+      "https://ae01.alicdn.com/kf/HTB1n7honbwrBKNjSZPcq6xpapXah/Hot-Game-Dota-2-Ph-Ki-n-c-o-Thi-t-K-M-H-nh-V.jpg",
+    price: 4.99,
     rating: 3,
     numReviews: 12,
   },
   {
     _id: "4",
-    name: "Sony Playstation 5 Controller",
+    name: "Ring of Aquila",
     image:
-      "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBsYXklMjBzdGF0aW9ufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-
-    price: 399.99,
+      "https://ae01.alicdn.com/kf/HTB1kHx0FeOSBuNjy0Fdq6zDnVXaz/Game-Dota-2-Accessories-unique-design-Model-DOTA-2-Ring-of-Aquila-for-male-Novelty-Cartoon.jpg",
+    price: 2.99,
     rating: 5,
     numReviews: 12,
   },
   {
     _id: "5",
-    name: "Laptop",
+    name: "Ring of Health",
     image:
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wfGVufDB8fDB8&auto=format&fit=crop&w=500&q=60",
-
-    price: 49.99,
+      "https://ae01.alicdn.com/kf/HTB19hQ0kOMnBKNjSZFCq6x0KFXa2/Ti8-9-size-Hot-Game-DOTA-2-Model-Stainless-Steel-Ring-Dota-2-Wholesale-Rings-metal.jpg",
+    price: 2.99,
     rating: 3.5,
     numReviews: 10,
   },
   {
     _id: "6",
-    name: "Apple Watch",
+    name: "Ring of Protection",
     image:
-      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8YXBwbGUlMjB3YXRjaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-
-    price: 29.99,
+      "https://cf.shopee.ph/file/99294f24ba78ff8a01023617009cd535",
+    price: 1.99,
     rating: 4,
     numReviews: 12,
   },
