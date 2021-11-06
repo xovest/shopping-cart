@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import CartContext from '../context/cart/CartContext';
 import formatCurrency from 'format-currency';
+import CartItem from './CartItem';
 
 const Cart = () => {
   const { showCart, cartItems, showHideCart } = useContext(CartContext);

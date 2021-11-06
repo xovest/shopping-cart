@@ -3,7 +3,7 @@ import CartContext from '../context/cart/CartContext';
 import './Nav.css';
 
 const Nav = () => {
-  const { cartItems } = useContext(CartContext);
+  const { cartItems, showHideCart } = useContext(CartContext);
 
   return (
     <nav>
@@ -16,7 +16,7 @@ const Nav = () => {
       </div>
       <div className="nav__right">
         <div className="cart__icon">
-          <i className="fa fa-shopping-cart" aria-hidden="true" />
+          <i className="fa fa-shopping-cart" aria-hidden="true" onClick={showHideCart} />
           { cartItems.length > 0 && <div className="items__count"><span>{cartItems.length}</span></div>}
         </div>
       </div>
