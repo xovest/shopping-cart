@@ -1,6 +1,10 @@
-import './Nav.css'; //context next
+import { useContext } from 'react';
+import CartContext from '../context/cart/CartContext';
+import './Nav.css';
 
 const Nav = () => {
+  const { cartItems } = useContext(CartContext);
+
   return (
     <nav>
       <div className="nav__left">Store</div>
@@ -13,6 +17,7 @@ const Nav = () => {
       <div className="nav__right">
         <div className="cart__icon">
           <i className="fa fa-shopping-cart" aria-hidden="true" />
+          { cartItems.length > 0 && <div className="items__count"><span>{cartItems.length}</span></div>}
         </div>
       </div>
     </nav>
